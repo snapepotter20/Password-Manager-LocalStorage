@@ -6,13 +6,10 @@ const Navbar = () => {
         <span className="text-black text-2xl">Lock/&gt;</span>
       </div>
       <div className="flex items-center justify-center gap-4 text-white text-lg">
-        {/* <div>Home</div>
-          <div>About</div>
-          <div>LogIn</div> */}
-        <button className="flex items-center justify-center gap-2 p-2 text-white text-lg hover:bg-white hover:rounded-3xl hover:text-green-600">
+        <a href="https://github.com/snapepotter20/Password-Manager-LocalStorage" target="_blank" className="flex items-center justify-center gap-2 p-2 text-white text-lg hover:bg-white hover:rounded-3xl hover:text-green-600">
           <img src="/github.png" alt="github" />
           <span>Github</span>
-        </button>
+        </a>
       </div>
     </nav>
   );
